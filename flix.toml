@@ -1,5 +1,5 @@
 [package]
-name        = "formatter-test-demo"
+name        = "flix-formatter-test-demo"
 description = "a test library"
 version     = "0.1.0"
 flix        = "0.57.0"
