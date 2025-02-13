@@ -1,4 +1,7 @@
+import java.lang.Boolean
+
 mod Formatter {
+    import java.lang.Boolean
 
     ///
     /// Formats the string `s`.
@@ -8,6 +11,8 @@ mod Formatter {
         String.toLowerCase(s)
     }
 
-    pub def rand(): Int32 = unchecked_cast(2 as Int32)
+    pub def rand(): Int32 =  2
+
+    pub def doesJava(): Boolean = new Boolean(true)
 
 }
