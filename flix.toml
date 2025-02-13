@@ -1,6 +1,6 @@
 [package]
 name        = "flix-formatter-test-demo"
 description = "a test library"
-version     = "0.1.4"
+version     = "0.1.5"
 flix        = "0.57.1"
 authors     = ["John Doe <john@example.com>"]
