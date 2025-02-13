@@ -8,4 +8,6 @@ mod Formatter {
         String.toLowerCase(s)
     }
 
+    pub def rand(): Int32 = unchecked_cast(2 as Int32)
+
 }
