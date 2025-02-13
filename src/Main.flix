@@ -1,7 +1,7 @@
-import java.lang.Boolean
-
 mod Formatter {
+
     import java.lang.Boolean
+    import java.lang.Integer
 
     ///
     /// Formats the string `s`.
@@ -14,5 +14,7 @@ mod Formatter {
     pub def rand(): Int32 =  2
 
     pub def doesJava(): Boolean = new Boolean(true)
+
+    pub def doesMoreJava(): Integer \ IO = Integer.valueOf(42)
 
 }
