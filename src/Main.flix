@@ -8,6 +8,6 @@ mod Formatter {
 
     pub def rand(): Int32 =  2
 
-    pub def out(f: Unit -> Unit \ IO): Unit \ IO = f()
+    pub def out(f: Unit -> Unit \ ef): Unit \ ef = f()
 
 }
