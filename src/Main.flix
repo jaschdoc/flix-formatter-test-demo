@@ -1,8 +1,5 @@
 mod Formatter {
 
-    import java.lang.Boolean
-    import java.lang.Integer
-
     ///
     /// Formats the string `s`.
     ///
@@ -10,5 +7,7 @@ mod Formatter {
         String.toLowerCase(s)
 
     pub def rand(): Int32 =  2
+
+    pub def out(f: Unit -> Unit \ IO): Unit \ IO = f()
 
 }
